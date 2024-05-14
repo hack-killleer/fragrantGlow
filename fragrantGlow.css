@@ -1,3 +1,4 @@
+/*
 [dir=rtl] .s-slider-block__title h2 {
     color: #8e35ee;
 }
@@ -28,7 +29,6 @@
     color: white;
         border-radius: 30px;
 }
-/* Add custom CSS styles below */ 
 .bg-gray-50 {
     
     background-color: white;
@@ -36,8 +36,7 @@
 [dir=rtl] salla-slider.photos-slider .swiper {
     padding-right: 0rem !important;
 }
-/* mover banner///////////////// */ 
-  [dir=rtl] .carousel-slider .swiper {
+   [dir=rtl] .carousel-slider .swiper {
     padding-left: 0rem !important;
 }
 salla-slider.photos-slider .swiper-slide {
@@ -59,8 +58,7 @@ section:first-of-type.s-block.s-block--photos-slider {
     margin: 0px !important;
 }
 
-/* categoryyy//////////////// */ 
-.grid.one-row.md\:grid-cols-2.grid-flow-row.gap-3.sm\:gap-8,.grid.md\:grid-cols-3.two-row.grid-flow-row.gap-3.sm\:gap-8{
+ .grid.one-row.md\:grid-cols-2.grid-flow-row.gap-3.sm\:gap-8,.grid.md\:grid-cols-3.two-row.grid-flow-row.gap-3.sm\:gap-8{
     display: flex;
     flex-wrap: wrap;
 }
@@ -82,7 +80,6 @@ section:first-of-type.s-block.s-block--photos-slider {
     height: 138px !important;
     background: #f9fafb00;
 }
-/* Media Query for Mobile Devices */ 
  @media (max-width: 480px) { 
  .grid.one-row.md\:grid-cols-2.grid-flow-row.gap-3.sm\:gap-8 .banner-entry {
     width: 48%;
@@ -95,8 +92,7 @@ section:first-of-type.s-block.s-block--photos-slider {
     background: #f9fafb00;
 }
   } 
-/* Media Query for low resolution  Tablets, Ipads */ 
-       
+        
 @media (min-width: 481px) and (max-width: 767px) { 
  .grid.one-row.md\:grid-cols-2.grid-flow-row.gap-3.sm\:gap-8 .banner-entry {
     width: 47%;
@@ -109,3 +105,7 @@ section:first-of-type.s-block.s-block--photos-slider {
     background: #f9fafb00;
 }
  }
+
+*/ 
+
+
